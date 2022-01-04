@@ -24,7 +24,7 @@ export default {
       if (this.selectedFilter == "all") {
         let products = [...new Array(productItems.length)];
         for (let i = 1; i < productItems.length - 1; i -= -1) {
-          products.forEach((product, idx) => {
+          products.forEach((Product, idx) => {
             if (idx == i) {
               products.push(productItems[idx]);
             }
